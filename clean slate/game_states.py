@@ -1,0 +1,11 @@
+from enum import Enum
+
+class GameStates(Enum):
+	TITLE_SCREEN = 1
+	PLAYER_MENU = 2
+	TRANSITION = 3
+	CUTSCENE =4
+	NPC_INTERACT =5
+	PLAYER_TURN = 6
+	WORLD_TURN = 7
+	GAME_OVER = 8
